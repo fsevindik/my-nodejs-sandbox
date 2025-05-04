@@ -12,15 +12,16 @@ Just a bunch of code snippets and short files created while watching tutorials, 
 
 - `index.js`: Random examples with the `fs` module (sync & async), testing how file operations work.
 - `math.js`: A simple custom math module used for testing `require()` and exports. etc. etc.
-- server.js fora  primitive server
+- server.js   primitive server
 - -server2.js  server with express
+- middleware
+- 
 
 ## 🛠️ Practiced Topics
 
 - Reading/writing files in Node.js
-- Using `require()` and creating custom modules
-- Sync vs async functions
-- Playing around with basic Node.js core modules
+- Sync vs async functions where and how
+- Playing around with  Node.js core modules
 
 ## ⚠️ Disclaimer
 
