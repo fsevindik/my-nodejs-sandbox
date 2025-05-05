@@ -46,7 +46,13 @@ app.use("/detail/:id",(req, res) => {
  })
  
 
+ app.use("/",(req,res,next)=> {
+    console.log("this is a middleware")
+    //next()  if u comment here u gonna see that page status is pending..... :)
+    next()
+ })
 
+ 
 app.use("/",(req, res) => {
   //  res.send("here  is about  page  created by express")
   res.render("products", {products:products }) // this is used to render the ejs file
